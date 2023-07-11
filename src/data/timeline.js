@@ -8,17 +8,17 @@ export default [
     },
     {
          year: '2023',
-         title: 'Machine Learning Research',
+         title: 'Machine Learning Research at Stanford',
          duration: '1 year',
          details:
              "Conducted extensive research in the field of machine learning, focusing on deep learning algorithms and their applications. Implemented various neural network architectures using TensorFlow and PyTorch, and achieved significant improvements in image classification accuracy. Presented research findings at multiple international conferences."
      },
      {
         year: '2022',
-        title: 'Software Engineering Internship',
+        title: 'Google Software Engineering Internship',
         duration: '6 months',
         details: 
-           'Completed a highly competitive internship at a renowned software company, where I worked on a large-scale enterprise application. Collaborated with a cross-functional team of developers and contributed to the design, development, and testing phases. Gained hands-on experience with Agile methodologies and learned to deliver high-quality code within strict deadlines.'
+           'Completed a highly competitive internship at Google, where I worked on a large-scale enterprise application. Collaborated with a cross-functional team of developers and contributed to the design, development, and testing phases. Gained hands-on experience with Agile methodologies and learned to deliver high-quality code within strict deadlines.'
      },
      {
         year: '2022',
@@ -29,14 +29,14 @@ export default [
     },
      {
         year: '2021',
-        title: 'Hackathon Winner',
+        title: 'Stanford TreeHacks Hackathon Winner',
         duration: '3 days',
         details:
-            'Participated in a prestigious hackathon and led a team to develop an innovative mobile application. Our project focused on solving a real-world problem by leveraging emerging technologies. Successfully pitched our idea to a panel of judges and received the first-place award, recognizing our creativity, technical skills, and ability to work under pressure.'
+            'Participated in a prestigious TreeHacks hackathon and led a team to develop an innovative mobile application. Our project focused on solving a real-world problem by leveraging emerging technologies. Successfully pitched our idea to a panel of judges and received the first-place award, recognizing our creativity, technical skills, and ability to work under pressure.'
     },
     {
         year: '2020',
-        title: 'Research Assistant',
+        title: 'Stanford Research Assistant',
         duration: '1 year',
         details:
             'Worked as a research assistant in the computer science department, collaborating with professors on cutting-edge research projects. Assisted in data collection, analysis, and experimental design. Published research papers in reputable journals, contributing to advancements in the field of artificial intelligence and data mining.'

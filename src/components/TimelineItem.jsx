@@ -1,57 +1,56 @@
 import React from 'react';
 
 function renderDetails2(details) {
-  const im2cLinkUrl = 'https://www.immchallenge.org/'; // Replace with the actual URL for IM2C link
-  const himcLinkUrl = 'https://www.comap.com/contests/himcm-midmcm'; // Replace with the actual URL for HIMC link
-  const uoeUrl =
-    'https://www.topuniversities.com/universities/university-edinburgh';
-  const ciUrl = 'https://www.clairfield.com/';
-  const euticUrl = 'https://www.facebook.com/EUTIC/';
-  const formulaUrl = 'https://www.eufs.co/';
-  const rtgUrl = 'https://readytradergo.optiver.com/';
-  const appUrl = 'https://apps.apple.com/pl/app/slam/id1672653906';
+  const mongoDBUrl = 'https://www.mongodb.com/';
+  const expressUrl = 'https://expressjs.com/';
+  const reactUrl = 'https://react.dev/learn';
+  const NodeUrl = 'https://www.clairfield.com/';
+  const tensorUrl = 'https://www.tensorflow.org/';
+  const pytorchUrl = 'https://pytorch.org/';
+  const googleUrl = 'https://careers.google.com/';
+  const treehacksUrl = 'https://www.treehacks.com/';
 
-  const im2cRegex = /IM2C/g;
-  const himcRegex = /HiMCM/g;
-  const uoeRegex = /ranked/g;
-  const ciRegex = /Clairefield International/g;
-  const euticRegex = /EUTIC/g;
-  const formulaRegex = /FORMULA/g;
-  const rtgRegex = /Ready Trader Go/g;
-  const appRegex = /AppStore/g;
+  const mongoDB = /MongoDB/g;
+  const expressJS = /Express.js/g;
+  const React = /React/g;
+  const NodeJS = /Node.js/g;
+  const tensorFlow = /TensorFlow/g;
+  const pytorch = /PyTorch/g;
+  const google = /Google/g;
+  const treehacks = /TreeHacks/g;
 
   const renderedDetails = details
     .replace(
-      im2cRegex,
-      `<a href="${im2cLinkUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8);">IM2C</a>`
+      mongoDB,
+      `<a href="${mongoDBUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8);">MondoDB</a>`
     )
     .replace(
-      himcRegex,
-      `<a href="${himcLinkUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">HiMCM</a>`
+      expressJS,
+      `<a href="${expressUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">Express.js</a>`
     )
     .replace(
-      uoeRegex,
-      `<a href="${uoeUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">ranked</a>`
+      React,
+      `<a href="${reactUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">React.js</a>`
     )
     .replace(
-      ciRegex,
-      `<a href="${ciUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">Clairefield International</a>`
+      NodeJS,
+      `<a href="${NodeUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">Node.js</a>`
     )
     .replace(
-      euticRegex,
-      `<a href="${euticUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">EUTIC</a>`
+      tensorFlow,
+      `<a href="${tensorUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">TensorFlow</a>`
     )
     .replace(
-      formulaRegex,
-      `<a href="${formulaUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">FORMULA</a>`
+      pytorch,
+      `<a href="${pytorchUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">PyTorch</a>`
     )
     .replace(
-      rtgRegex,
-      `<a href="${rtgUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">Ready Trader Go</a>`
+      google,
+      `<a href="${googleUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">Google</a>`
     )
     .replace(
-      appRegex,
-      `<a href="${appUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">AppStore</a>`
+      treehacks,
+      `<a href="${treehacksUrl}" target="_blank" rel="noopener noreferrer" style="color: rgb(234 179 8)">TreeHacks</a>`
     );
 
   return (
